@@ -4,4 +4,19 @@
 
 body {
   background-color: #0f172a;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.blur-in {
+  animation: blur-in 0.5s linear both;
+}
+@keyframes blur-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
 }
