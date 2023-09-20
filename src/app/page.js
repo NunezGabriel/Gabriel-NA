@@ -5,8 +5,9 @@ import { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import DownArrow from "@/components/downArrow";
+import DownArrow from "@/modals/downArrow";
 import NavBarModal from "@/modals/navbarModal";
+import About from "@/components/about";
 
 export default function Home() {
   let modal = "none";
@@ -69,7 +70,7 @@ export default function Home() {
             Hi, my name is
           </p>
           <h1 className=" text-[#cdd6f6] blur-in text-4xl lg:text-[120px] font-black">
-            Gabriel Nunez
+            Gabriel Nuñez
           </h1>
           <h2 className=" text-[#8992af] blur-in text-2xl font-black lg:text-[50px]">
             Full Stack Developer, writing code with passion.
@@ -113,6 +114,7 @@ export default function Home() {
           className=" grayscale lg:scale-150"
         />
       </section>
+      <About />
     </>
   );
 }
