@@ -10,6 +10,7 @@ import NavBarModal from "@/modals/navbarModal";
 import About from "@/components/about";
 import Skills from "@/components/skills";
 import Proyects from "@/components/proyects";
+import Contact from "@/components/contact";
 
 export default function Home() {
   let modal = "none";
@@ -107,7 +108,9 @@ export default function Home() {
               />
             </Link>
           </section>
-          <DownArrow />
+          <h1 className="text-[#59e0cd] md:text-xl md:text-end">
+            ---------- &nbsp;&nbsp;&nbsp;gabriel.nunez.arenas@gmail.com
+          </h1>
         </div>
         <Image
           src="/img/faceng.png"
@@ -119,6 +122,13 @@ export default function Home() {
       <About />
       <Skills />
       <Proyects />
+      <Contact />
+      <div className="p-6 grid gap-5 md:mx-auto  md:max-w-[1320px] mb-6 text-center lg:gap-12 ">
+        <p className="text-[#4d5161] hover:text-[#59e0cd] max-w-[366px] mx-auto">
+          © 2023 - Created and designed by Gabriel Nuñez
+          <br /> taking inspiration from Brittanny Chiang ♥
+        </p>
+      </div>
     </>
   );
 }
