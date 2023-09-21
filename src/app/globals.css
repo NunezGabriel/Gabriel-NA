@@ -101,8 +101,20 @@ body {
   transform: translate(-50%, -50%);
 }
 .changer {
-  color: #59e0cd;
+  color: #cdd6f6;
+  transition: 1s;
 }
 .changer:hover {
-  color: red;
+  color: #59e0cd;
+}
+
+.square {
+  background-color: #0c2247b3;
+}
+.maintext {
+  color: #cdd6f6;
+  transition: 0.5s;
+}
+.square:hover .maintext {
+  color: #59e0cd;
 }
