@@ -3,7 +3,7 @@ import { SiPlatzi, SiUdemy, SiCoursera } from "react-icons/si";
 
 const About = () => {
   return (
-    <div className="p-4 grid gap-4 md:px-6 md:max-w-[1320px] md:mx-auto lg:flex md:items-center md:gap-12">
+    <div className="p-6 grid gap-4 md:px-6 md:max-w-[1320px] md:mx-auto lg:flex md:items-center md:gap-12 mb-8 lg:mb-28">
       <div className=" grid gap-12 md:max-w-4xl">
         <h1 className="text-[#cdd6f6] text-2xl">
           <span className="text-[#59e0cd]">01 - </span>About Me

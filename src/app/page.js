@@ -8,6 +8,7 @@ import Image from "next/image";
 import DownArrow from "@/modals/downArrow";
 import NavBarModal from "@/modals/navbarModal";
 import About from "@/components/about";
+import Skills from "@/components/skills";
 
 export default function Home() {
   let modal = "none";
@@ -115,6 +116,7 @@ export default function Home() {
         />
       </section>
       <About />
+      <Skills />
     </>
   );
 }
