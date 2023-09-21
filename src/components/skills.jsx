@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <div className="p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28">
       <h1 className="text-[#cdd6f6] text-2xl ">
-        <span className="text-[#59e0cd]">01 - </span>Skills
+        <span className="text-[#59e0cd]">02 - </span>Skills
       </h1>
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">

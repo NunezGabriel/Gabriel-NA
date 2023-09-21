@@ -100,3 +100,9 @@ body {
 .transCenter {
   transform: translate(-50%, -50%);
 }
+.changer {
+  color: #59e0cd;
+}
+.changer:hover {
+  color: red;
+}

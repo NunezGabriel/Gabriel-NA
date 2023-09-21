@@ -9,6 +9,7 @@ import DownArrow from "@/modals/downArrow";
 import NavBarModal from "@/modals/navbarModal";
 import About from "@/components/about";
 import Skills from "@/components/skills";
+import Proyects from "@/components/proyects";
 
 export default function Home() {
   let modal = "none";
@@ -59,13 +60,13 @@ export default function Home() {
             Contact
           </Link>
           <Link href="/">
-            <div className="text-[#59e0cd] py-1 px-3 border border-[#59e0cd] rounded-lg">
+            <div className="text-[#59e0cd] py-1 px-3 border border-[#59e0cd] rounded-lg ">
               RESUME
             </div>
           </Link>
         </div>
       </nav>
-      <section className="grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[123px] mb-24 lg:mb-[300px]">
+      <section className="grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[123px] mb-24 lg:mb-[300px] ">
         <div className="grid gap-4 lg:gap-14 md:flex md:flex-col relative">
           <p className=" text-[#59e0cd] blur-in text-lg lg:text-[30px]">
             Hi, my name is
@@ -117,6 +118,7 @@ export default function Home() {
       </section>
       <About />
       <Skills />
+      <Proyects />
     </>
   );
 }
