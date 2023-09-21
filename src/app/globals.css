@@ -96,3 +96,7 @@ body {
     transform: translate(0);
   }
 }
+
+.transCenter {
+  transform: translate(-50%, -50%);
+}

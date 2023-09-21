@@ -9,19 +9,21 @@ const About = () => {
           <span className="text-[#59e0cd]">01 - </span>About Me
         </h1>
         <div className="grid gap-2 text-lg">
-          <p className="text-[#8992af] ">
+          <p className="text-[#8992af] leading-6 mb-3">
             Hello, my name is{" "}
-            <span className="text-[#59e0cd]">GABRIEL EMILIO NUÑEZ ARENAS</span>.
-            Let's get to know us better. I'm a full-stack developer with a soft
-            spot for React and related technologies, so I lean towards the
+            <span className="text-[#59e0cd] leading-6 mb-3">
+              GABRIEL EMILIO NUÑEZ ARENAS
+            </span>
+            . Let's get to know us better. I'm a full-stack developer with a
+            soft spot for React and related technologies, so I lean towards the
             Frontend.
           </p>
-          <p className="text-[#8992af] ">
+          <p className="text-[#8992af] leading-6 mb-3">
             I like to work as a team to learn new things from my colleagues and
             also support them in topics that are not known to them in the best
             possible way.
           </p>
-          <p className="text-[#8992af] ">
+          <p className="text-[#8992af] leading-6 mb-3">
             I studied half of my Computer Science degree at the{" "}
             <Link href="https://ucsp.edu.pe/" className="text-[#59e0cd]">
               San Pablo Catholic University ( Arequipa - Peru )
@@ -34,7 +36,7 @@ const About = () => {
             , it was a challenging and very educational experience both in
             programming as well as in social.
           </p>
-          <p className="text-[#8992af] ">
+          <p className="text-[#8992af] leading-6 mb-3">
             I also have certificates of web development courses from different
             platforms such as{" "}
             <Link href="https://platzi.com/" className="text-[#59e0cd]">
@@ -56,18 +58,6 @@ const About = () => {
               Coursera.
             </Link>
           </p>
-          <p className="text-[#8992af] ">
-            I'm currently about to obtain the international English certificate
-            at the{" "}
-            <Link
-              href="https://www.britanico.edu.pe/"
-              className="text-[#59e0cd]"
-            >
-              Britanico&nbsp;
-            </Link>
-            English academy.
-          </p>
-          <p className="text-[#8992af] ">I'm very excited for the future.</p>
         </div>
       </div>
       <div className="h-[300px] relative ">

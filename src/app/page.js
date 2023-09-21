@@ -65,7 +65,7 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-      <section className="grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[123px] mb-24 md:mb-[300px]">
+      <section className="grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[123px] mb-24 lg:mb-[300px]">
         <div className="grid gap-4 lg:gap-14 md:flex md:flex-col relative">
           <p className=" text-[#59e0cd] blur-in text-lg lg:text-[30px]">
             Hi, my name is
@@ -73,7 +73,7 @@ export default function Home() {
           <h1 className=" text-[#cdd6f6] blur-in text-4xl lg:text-[120px] font-black">
             Gabriel Nuñez
           </h1>
-          <h2 className=" text-[#8992af] blur-in text-2xl font-black lg:text-[50px]">
+          <h2 className=" text-[#8992af] blur-in text-2xl font-black lg:text-[50px] leading-tight">
             Full Stack Developer, writing code with passion.
           </h2>
           <section className="flex gap-7 mt-3 blur-in z-10 lg:gap-14">
@@ -112,7 +112,7 @@ export default function Home() {
           src="/img/faceng.png"
           width={320}
           height={320}
-          className=" grayscale lg:scale-150"
+          className=" grayscale lg:scale-150 "
         />
       </section>
       <About />
