@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 const Contact = () => {
   return (
-    <div className="p-6 grid gap-5 md:mx-auto  md:max-w-[1320px] mb-10  text-center lg:gap-12">
+    <div
+      id="contact"
+      className="p-6 grid gap-5 md:mx-auto  md:max-w-[1320px] mb-10  text-center lg:gap-12"
+    >
       <h1 className="text-lg lg:text-4xl text-[#59e0cd]">04 - What's Next?</h1>
       <h1 className=" text-4xl lg:text-9xl font-black text-[#cdd6f6]">
         Get In Touch
@@ -11,7 +16,14 @@ const Contact = () => {
         just want to say hi.
       </h1>
       <button className="w-[200px] h-[50px] border border-[#59e0cd] rounded-xl changer mx-auto">
-        Say Hello
+        <Link
+          class="email-link"
+          href="mailto:gabriel.nunez.arenas@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Say Hello
+        </Link>
       </button>
     </div>
   );

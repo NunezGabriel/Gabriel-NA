@@ -1,7 +1,8 @@
 "use client";
 import { FiGithub, FiLinkedin, FiTwitter, FiInstagram } from "react-icons/fi";
 import { MdOutlineSegment } from "react-icons/md";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +25,9 @@ export default function Home() {
   }
   return (
     <>
-      <nav className="h-[80px] md:h-[100px] sticky  z-20 backdrop-blur-3xl top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto">
+      <nav
+        className={`h-[80px] md:h-[100px] sticky  z-20 backdrop-blur-3xl top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto `}
+      >
         <Image
           src="/img/rainder.png"
           width={60}
@@ -44,23 +47,26 @@ export default function Home() {
         />
 
         <div className="hidden md:flex gap-12 text-lg items-center">
-          <Link href="/" className="text-[#cdd6f6] hover:text-[#59e0cd]">
+          <Link href="#about" className="text-[#cdd6f6] hover:text-[#59e0cd]">
             <span className="text-[#59e0cd]">01 - </span>
             About
           </Link>
-          <Link href="/" className="text-[#cdd6f6] hover:text-[#59e0cd]">
+          <Link href="#skills" className="text-[#cdd6f6] hover:text-[#59e0cd]">
             <span className="text-[#59e0cd]">02 - </span>
             Skills
           </Link>
-          <Link href="/" className="text-[#cdd6f6] hover:text-[#59e0cd]">
+          <Link
+            href="#projects"
+            className="text-[#cdd6f6] hover:text-[#59e0cd]"
+          >
             <span className="text-[#59e0cd]">03 - </span>
             Projects
           </Link>
-          <Link href="/" className="text-[#cdd6f6] hover:text-[#59e0cd]">
+          <Link href="#contact" className="text-[#cdd6f6] hover:text-[#59e0cd]">
             <span className="text-[#59e0cd]">04 - </span>
             Contact
           </Link>
-          <Link href="/">
+          <Link href="https://drive.google.com/file/d/1nZyMBSMRqlAQK6scr9ftqEq9ZTKDnqfT/view?usp=sharing">
             <div className="text-[#59e0cd] py-1 px-3 border border-[#59e0cd] rounded-lg ">
               RESUME
             </div>

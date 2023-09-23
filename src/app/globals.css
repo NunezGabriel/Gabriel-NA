@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #0f172a;
   font-family: "Roboto", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+a.smooth-scroll {
+  scroll-behavior: smooth;
 }
 
 .blur-in {
