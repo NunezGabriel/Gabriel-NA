@@ -23,9 +23,9 @@ const Skills = () => {
       </h1>
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <FaReact
             color="#59e0cd"
@@ -35,9 +35,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiNextdotjs
             color="#59e0cd"
@@ -47,9 +47,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <RiJavascriptFill
             color="#59e0cd"
@@ -59,9 +59,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiTailwindcss
             color="#59e0cd"
@@ -71,9 +71,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiHtml5
             color="#59e0cd"
@@ -83,9 +83,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiCss3
             color="#59e0cd"
@@ -95,9 +95,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <FaGitAlt
             color="#59e0cd"
@@ -107,9 +107,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <FaGithub
             color="#59e0cd"
@@ -119,9 +119,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiPostgresql
             color="#59e0cd"
@@ -131,9 +131,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiJest
             color="#59e0cd"
@@ -143,9 +143,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <DiRuby
             color="#59e0cd"
@@ -155,9 +155,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
           </span>
           <SiPython
             color="#59e0cd"
@@ -167,9 +167,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>
           </span>
           <FaNodeJs
             color="#59e0cd"
@@ -179,9 +179,9 @@ const Skills = () => {
         </div>
 
         <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
-          <span class="relative left-[95px] top-3 flex h-4 w-4">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>
+          <span className="relative left-[95px] top-3 flex h-4 w-4">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>
           </span>
           <BiLogoTypescript
             color="#59e0cd"

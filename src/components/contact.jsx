@@ -17,7 +17,7 @@ const Contact = () => {
       </h1>
       <button className="w-[200px] h-[50px] border border-[#59e0cd] rounded-xl changer mx-auto">
         <Link
-          class="email-link"
+          className="email-link"
           href="mailto:gabriel.nunez.arenas@gmail.com"
           target="_blank"
           rel="noopener noreferrer"

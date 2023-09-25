@@ -61,6 +61,7 @@ export default function Home() {
             width={60}
             height={30}
             className="h-20 md:ml-4 lg:ml-10"
+            alt="icon"
           />
         </Link>
 
@@ -163,6 +164,7 @@ export default function Home() {
           width={320}
           height={320}
           className=" grayscale lg:scale-150 "
+          alt="profile picture"
         />
       </section>
       <About />
