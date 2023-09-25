@@ -7,10 +7,10 @@ import {
   SiPostgresql,
   SiJest,
   SiPython,
+  SiTypescript,
 } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import { DiRuby } from "react-icons/di";
-import { TbBrandTypescript } from "react-icons/Tb";
 
 const Skills = () => {
   return (
@@ -183,7 +183,7 @@ const Skills = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>
           </span>
-          <TbBrandTypescript
+          <SiTypescript
             color="#59e0cd"
             fontSize={70}
             className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
