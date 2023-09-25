@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CiFolderOn } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import { PiArrowSquareOutBold } from "react-icons/pi";
@@ -6,7 +7,7 @@ const Proyects = () => {
   return (
     <div
       id="projects"
-      className="p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
+      className="sections p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
     >
       <h1 className="text-[#cdd6f6] text-2xl ">
         <span className="text-[#59e0cd]">03 - </span>Some Things I’ve Built
@@ -17,8 +18,18 @@ const Proyects = () => {
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
-              <FiGithub fontSize={20} className="changer" />
-              <PiArrowSquareOutBold fontSize={25} className="changer" />
+              <Link
+                href="https://github.com/NunezGabriel/get-that-home-frontend "
+                target="_blank"
+              >
+                <FiGithub fontSize={20} className="changer" />
+              </Link>
+              <Link
+                href="https://get-that-home-frontend.vercel.app/"
+                target="_blank"
+              >
+                <PiArrowSquareOutBold fontSize={25} className="changer" />
+              </Link>
             </div>
           </div>
           <div className="grid mt-5 gap-5">
@@ -40,8 +51,18 @@ const Proyects = () => {
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
-              <FiGithub fontSize={20} className="changer" />
-              <PiArrowSquareOutBold fontSize={25} className="changer" />
+              <Link
+                href="https://github.com/NunezGabriel/pokedex"
+                target="_blank"
+              >
+                <FiGithub fontSize={20} className="changer" />
+              </Link>
+              <Link
+                href="https://pokedex-beta-pied.vercel.app/"
+                target="_blank"
+              >
+                <PiArrowSquareOutBold fontSize={25} className="changer" />
+              </Link>
             </div>
           </div>
           <div className="grid mt-5 gap-5">
@@ -63,7 +84,12 @@ const Proyects = () => {
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
-              <FiGithub fontSize={20} className="changer" />
+              <Link
+                href="https://github.com/NunezGabriel/eatable-fillters"
+                target="_blank"
+              >
+                <FiGithub fontSize={20} className="changer" />
+              </Link>
             </div>
           </div>
           <div className="grid mt-5 gap-5">
@@ -86,8 +112,15 @@ const Proyects = () => {
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
-              <FiGithub fontSize={20} className="changer" />
-              <PiArrowSquareOutBold fontSize={25} className="changer" />
+              <Link
+                href="https://github.com/NunezGabriel/Keepable"
+                target="_blank"
+              >
+                <FiGithub fontSize={20} className="changer" />
+              </Link>
+              <Link href="https://keepable.vercel.app/" target="_blank">
+                <PiArrowSquareOutBold fontSize={25} className="changer" />
+              </Link>
             </div>
           </div>
           <div className="grid mt-5 gap-5">
@@ -109,7 +142,12 @@ const Proyects = () => {
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
-              <FiGithub fontSize={20} className="changer" />
+              <Link
+                href="https://github.com/NunezGabriel/CLINboards"
+                target="_blank"
+              >
+                <FiGithub fontSize={20} className="changer" />
+              </Link>
             </div>
           </div>
           <div className="grid mt-5 gap-5">
@@ -131,13 +169,17 @@ const Proyects = () => {
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
-              <FiGithub fontSize={20} className="changer" />
-              <PiArrowSquareOutBold fontSize={25} className="changer" />
+              <Link
+                href="https://github.com/NunezGabriel/Clivia_ruby"
+                target="_blank"
+              >
+                <FiGithub fontSize={20} className="changer" />
+              </Link>
             </div>
           </div>
           <div className="grid mt-5 gap-5">
             <h1 className="text-2xl font-black text-[#cdd6f6] maintext">
-              Clivia
+              Clivia Generator
             </h1>
             <p className="text-[#8992af] ">
               A backend application that generates trivia questions consumed

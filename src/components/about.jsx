@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="p-6 grid gap-4 md:px-6 md:max-w-[1320px] md:mx-auto lg:flex md:items-center md:gap-12 mb-8 lg:mb-28"
+      className="sections p-6 grid gap-4 md:px-6 md:max-w-[1320px] md:mx-auto lg:flex md:items-center md:gap-12 mb-8 lg:mb-28"
     >
       <div className=" grid gap-12 md:max-w-4xl">
         <h1 className="text-[#cdd6f6] text-2xl">

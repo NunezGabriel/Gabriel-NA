@@ -55,12 +55,15 @@ export default function Home() {
         }`}
         style={{ width: "100%", left: 0, right: 0 }}
       >
-        <Image
-          src="/img/rainder.png"
-          width={60}
-          height={30}
-          className="h-20 md:ml-4 lg:ml-10"
-        />
+        <Link href="/">
+          <Image
+            src="/img/rainder.png"
+            width={60}
+            height={30}
+            className="h-20 md:ml-4 lg:ml-10"
+          />
+        </Link>
+
         <div className="relative">
           <NavBarModal displayOption={modal} />
         </div>
@@ -93,7 +96,10 @@ export default function Home() {
             <span className="text-[#59e0cd]">04 - </span>
             Contact
           </Link>
-          <Link href="https://drive.google.com/file/d/1nZyMBSMRqlAQK6scr9ftqEq9ZTKDnqfT/view?usp=sharing">
+          <Link
+            href="https://drive.google.com/file/d/1nZyMBSMRqlAQK6scr9ftqEq9ZTKDnqfT/view?usp=sharing"
+            target="_blank"
+          >
             <div className="text-[#59e0cd] py-1 px-3 border border-[#59e0cd] rounded-lg ">
               RESUME
             </div>
@@ -113,28 +119,34 @@ export default function Home() {
             Full Stack Developer, writing code with passion.
           </h2>
           <section className="flex gap-7 mt-3 blur-in z-10 lg:gap-14">
-            <Link href="https://github.com/NunezGabriel">
+            <Link href="https://github.com/NunezGabriel" target="_blank">
               <FiGithub
                 color="#59e0cd"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
             </Link>
-            <Link href="https://www.linkedin.com/in/gabriel-nu%C3%B1ez-arenas/">
+            <Link
+              href="https://www.linkedin.com/in/gabriel-nu%C3%B1ez-arenas/"
+              target="_blank"
+            >
               <FiLinkedin
                 color="#59e0cd"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
             </Link>
-            <Link href="https://twitter.com/gabrielnunez_23">
+            <Link href="https://twitter.com/gabrielnunez_23" target="_blank">
               <FiTwitter
                 color="#59e0cd"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
             </Link>
-            <Link href="https://www.instagram.com/gabri3l_nun3z/">
+            <Link
+              href="https://www.instagram.com/gabri3l_nun3z/"
+              target="_blank"
+            >
               <FiInstagram
                 color="#59e0cd"
                 fontSize={20}

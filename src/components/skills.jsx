@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
+      className="sections p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
     >
       <h1 className="text-[#cdd6f6] text-2xl ">
         <span className="text-[#59e0cd]">02 - </span>Skills
