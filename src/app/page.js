@@ -2,7 +2,6 @@
 import { FiGithub, FiLinkedin, FiTwitter, FiInstagram } from "react-icons/fi";
 import { MdOutlineSegment } from "react-icons/md";
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -14,6 +13,31 @@ import Proyects from "@/components/proyects";
 import Contact from "@/components/contact";
 
 export default function Home() {
+  const [scrolling, setScrolling] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+
+      if (currentScrollPos > prevScrollPos) {
+        // Hacer scroll hacia abajo, ocultar el navbar
+        setScrolling(true);
+      } else {
+        // Hacer scroll hacia arriba, mostrar el navbar
+        setScrolling(false);
+      }
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
   let modal = "none";
 
   const [trigger, setTrigger] = useState("false");
@@ -26,7 +50,10 @@ export default function Home() {
   return (
     <>
       <nav
-        className={`h-[80px] md:h-[100px] sticky  z-20 backdrop-blur-3xl top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto `}
+        className={`h-[80px] md:h-[100px] fixed  z-20 backdrop-blur-3xl top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto ${
+          scrolling ? "hidden" : ""
+        }`}
+        style={{ width: "100%", left: 0, right: 0 }}
       >
         <Image
           src="/img/rainder.png"
@@ -73,7 +100,8 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-      <section className="grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[123px] mb-24 lg:mb-[300px] ">
+
+      <section className="mt-[100px] grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[223px] mb-24 lg:mb-[300px] ">
         <div className="grid gap-4 lg:gap-14 md:flex md:flex-col relative">
           <p className=" text-[#59e0cd] blur-in text-lg lg:text-[30px]">
             Hi, my name is
