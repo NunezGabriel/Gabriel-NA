@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
-import DownArrow from "@/modals/downArrow";
+
 import NavBarModal from "@/modals/navbarModal";
 import About from "@/components/about";
 import Skills from "@/components/skills";
