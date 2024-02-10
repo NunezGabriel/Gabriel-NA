@@ -22,7 +22,7 @@ const Skills = () => {
         <span className="text-[#59e0cd]">02 - </span>Skills
       </h1>
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -34,7 +34,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -46,7 +46,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -58,7 +58,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -70,7 +70,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -82,7 +82,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -94,7 +94,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -106,7 +106,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -118,7 +118,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -130,7 +130,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -142,7 +142,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -154,7 +154,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#59e0cd] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#59e0cd]"></span>
@@ -166,7 +166,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>
@@ -178,7 +178,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="h-32 w-32 relative  bg-[#0c2247b3] rounded-2xl">
+        <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
           <span className="relative left-[95px] top-3 flex h-4 w-4">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#efff64] opacity-75"></span>
             <span className="relative inline-flex rounded-full h-4 w-4 bg-[#efff64]"></span>

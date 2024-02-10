@@ -14,7 +14,7 @@ const Proyects = () => {
       </h1>
 
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
-        <div className="h-[305px] w-[315px] bg-[#0c2247b3] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+        <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
@@ -47,7 +47,7 @@ const Proyects = () => {
           </div>
         </div>
 
-        <div className="h-[305px] w-[315px] bg-[#0c2247b3] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+        <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
@@ -80,7 +80,7 @@ const Proyects = () => {
           </div>
         </div>
 
-        <div className="h-[305px] w-[315px] bg-[#0c2247b3] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+        <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
@@ -108,7 +108,7 @@ const Proyects = () => {
           </div>
         </div>
 
-        <div className="h-[305px] w-[315px] bg-[#0c2247b3] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+        <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
@@ -138,7 +138,7 @@ const Proyects = () => {
           </div>
         </div>
 
-        <div className="h-[305px] w-[315px] bg-[#0c2247b3] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+        <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">
@@ -165,7 +165,7 @@ const Proyects = () => {
           </div>
         </div>
 
-        <div className="h-[305px] w-[315px] bg-[#0c2247b3] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+        <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
             <CiFolderOn fontSize={50} color="#59e0cd" />
             <div className="flex gap-4 items-center">

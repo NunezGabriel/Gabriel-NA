@@ -7,7 +7,8 @@ html {
 }
 
 body {
-  background-color: #0f172a;
+  /* background-color: #0f172a; */
+  background-color: rgb(20, 20, 20);
   font-family: "Roboto", sans-serif !important;
   scroll-behavior: smooth;
 }
@@ -118,7 +119,7 @@ a.smooth-scroll {
 }
 
 .square {
-  background-color: #0c2247b3;
+  background-color: #242424;
 }
 .maintext {
   color: #cdd6f6;
