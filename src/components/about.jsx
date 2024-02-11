@@ -9,12 +9,12 @@ const About = () => {
     >
       <div className=" grid gap-12 md:max-w-4xl">
         <h1 className="text-[#cdd6f6] text-2xl">
-          <span className="text-[#59e0cd]">01 - </span>About Me
+          <span className="text-[#ff9b2f]">01 - </span>About Me
         </h1>
         <div className="grid gap-2 text-lg">
           <p className="text-[#8992af] leading-6 mb-3">
             Hello, my name is{" "}
-            <span className="text-[#59e0cd] leading-6 mb-3">
+            <span className="text-[#ff9b2f] leading-6 mb-3">
               GABRIEL EMILIO NUÑEZ ARENAS
             </span>
             . Let's get to know us better. I'm a full-stack developer with a
@@ -28,12 +28,12 @@ const About = () => {
           </p>
           <p className="text-[#8992af] leading-6 mb-3">
             I studied half of my Computer Science degree at the{" "}
-            <Link href="https://ucsp.edu.pe/" className="text-[#59e0cd]">
+            <Link href="https://ucsp.edu.pe/" className="text-[#ff9b2f]">
               San Pablo Catholic University ( Arequipa - Peru )
             </Link>
             , for personal reasons I had to leave it, but I complemented my
             studies with a fullstack development bootcamp in{" "}
-            <Link href="https://www.codeable.la/" className="text-[#59e0cd]">
+            <Link href="https://www.codeable.la/" className="text-[#ff9b2f]">
               Codeable
             </Link>
             , it was a challenging and very educational experience both in
@@ -42,22 +42,22 @@ const About = () => {
           <p className="text-[#8992af] leading-6 mb-3">
             I also have certificates of web development courses from different
             platforms such as{" "}
-            <Link href="https://platzi.com/" className="text-[#59e0cd]">
+            <Link href="https://platzi.com/" className="text-[#ff9b2f]">
               Platzi
             </Link>
             ,&nbsp;
-            <Link href="https://www.udemy.com/" className="text-[#59e0cd]">
+            <Link href="https://www.udemy.com/" className="text-[#ff9b2f]">
               Udemy
             </Link>
             ,&nbsp;
             <Link
               href="https://www.aluracursos.com/"
-              className="text-[#59e0cd]"
+              className="text-[#ff9b2f]"
             >
               Alura&nbsp;
             </Link>
             and{" "}
-            <Link href="https://www.coursera.org/" className="text-[#59e0cd]">
+            <Link href="https://www.coursera.org/" className="text-[#ff9b2f]">
               Coursera.
             </Link>
           </p>
@@ -66,23 +66,23 @@ const About = () => {
       <div className="h-[300px] relative ">
         <SiPlatzi
           fontSize={100}
-          color="#59e0cd"
+          color="#ff9b2f"
           className="absolute top-3 left-4 vibrate"
         />
         <SiUdemy
           fontSize={80}
-          color="#59e0cd"
+          color="#ff9b2f"
           className="absolute top-[130px] left-[235px] vibrate2"
         />
         <SiCoursera
           fontSize={90}
-          color="#59e0cd"
+          color="#ff9b2f"
           className="absolute top-[200px] left-5 vibrate2"
         />
-        <h1 className="text-5xl font-black absolute text-[#59e0cd] top-[80px] left-[145px] vibrate2">
+        <h1 className="text-5xl font-black absolute text-[#ff9b2f] top-[80px] left-[145px] vibrate2">
           {"{ca}"}
         </h1>
-        <h1 className="text-5xl font-black absolute text-[#59e0cd] top-[240px] left-[155px] vibrate">
+        <h1 className="text-5xl font-black absolute text-[#ff9b2f] top-[240px] left-[155px] vibrate">
           {"UCSP"}
         </h1>
       </div>

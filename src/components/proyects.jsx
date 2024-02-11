@@ -10,13 +10,13 @@ const Proyects = () => {
       className="sections p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
     >
       <h1 className="text-[#cdd6f6] text-2xl ">
-        <span className="text-[#59e0cd]">03 - </span>Some Things I’ve Built
+        <span className="text-[#ff9b2f]">03 - </span>Some Things I’ve Built
       </h1>
 
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
         <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
-            <CiFolderOn fontSize={50} color="#59e0cd" />
+            <CiFolderOn fontSize={50} color="#ff9b2f" />
             <div className="flex gap-4 items-center">
               <Link
                 href="https://github.com/NunezGabriel/get-that-home-frontend "
@@ -49,7 +49,7 @@ const Proyects = () => {
 
         <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
-            <CiFolderOn fontSize={50} color="#59e0cd" />
+            <CiFolderOn fontSize={50} color="#ff9b2f" />
             <div className="flex gap-4 items-center">
               <Link
                 href="https://github.com/NunezGabriel/pokedex"
@@ -82,7 +82,7 @@ const Proyects = () => {
 
         <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
-            <CiFolderOn fontSize={50} color="#59e0cd" />
+            <CiFolderOn fontSize={50} color="#ff9b2f" />
             <div className="flex gap-4 items-center">
               <Link
                 href="https://github.com/NunezGabriel/eatable-fillters"
@@ -110,7 +110,7 @@ const Proyects = () => {
 
         <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
-            <CiFolderOn fontSize={50} color="#59e0cd" />
+            <CiFolderOn fontSize={50} color="#ff9b2f" />
             <div className="flex gap-4 items-center">
               <Link
                 href="https://github.com/NunezGabriel/Keepable"
@@ -140,7 +140,7 @@ const Proyects = () => {
 
         <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
-            <CiFolderOn fontSize={50} color="#59e0cd" />
+            <CiFolderOn fontSize={50} color="#ff9b2f" />
             <div className="flex gap-4 items-center">
               <Link
                 href="https://github.com/NunezGabriel/CLINboards"
@@ -167,7 +167,7 @@ const Proyects = () => {
 
         <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
           <div className="flex w-full justify-between items-center ">
-            <CiFolderOn fontSize={50} color="#59e0cd" />
+            <CiFolderOn fontSize={50} color="#ff9b2f" />
             <div className="flex gap-4 items-center">
               <Link
                 href="https://github.com/NunezGabriel/Clivia_ruby"
@@ -193,7 +193,7 @@ const Proyects = () => {
         </div>
       </div>
       {/*Cuando tengas mas proyectos activa este boton */}
-      {/* <button className="w-[200px] h-[50px] border border-[#59e0cd] rounded-xl changer mx-auto">
+      {/* <button className="w-[200px] h-[50px] border border-[#ff9b2f] rounded-xl changer mx-auto">
         Show more
       </button> */}
     </div>

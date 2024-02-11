@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <section className="mt-[100px] grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[223px] mb-24 lg:mb-[300px] ">
         <div className="grid gap-4 lg:gap-14 md:flex md:flex-col relative">
-          <p className=" text-[#59e0cd] blur-in text-lg lg:text-[30px]">
+          <p className=" text-[#ff9b2f] blur-in text-lg lg:text-[30px]">
             Hi, my name is
           </p>
           <h1 className=" text-[#cdd6f6] blur-in text-4xl lg:text-[120px] font-black">
@@ -25,7 +25,7 @@ export default function Home() {
           <section className="flex gap-7 mt-3 blur-in z-10 lg:gap-14">
             <Link href="https://github.com/NunezGabriel" target="_blank">
               <FiGithub
-                color="#59e0cd"
+                color="#ff9b2f"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
@@ -35,14 +35,14 @@ export default function Home() {
               target="_blank"
             >
               <FiLinkedin
-                color="#59e0cd"
+                color="#ff9b2f"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
             </Link>
             <Link href="https://twitter.com/gabrielnunez_23" target="_blank">
               <FiTwitter
-                color="#59e0cd"
+                color="#ff9b2f"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
@@ -52,13 +52,13 @@ export default function Home() {
               target="_blank"
             >
               <FiInstagram
-                color="#59e0cd"
+                color="#ff9b2f"
                 fontSize={20}
                 className="relative hover:-translate-y-1 ease-in duration-100 lg:scale-[2]"
               />
             </Link>
           </section>
-          <h1 className="text-[#59e0cd] md:text-xl md:text-end">
+          <h1 className="text-[#ff9b2f] md:text-xl md:text-end">
             ---------- &nbsp;&nbsp;&nbsp;gabriel.nunez.arenas@gmail.com
           </h1>
         </div>
