@@ -42,23 +42,23 @@ const NavBarComponet = () => {
   }
   return (
     <div
-      className={`bg-[#242424] h-[80px] md:h-[100px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7  mx-auto ${
+      className={`bg-[#242424] h-[80px] md:h-[70px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7  mx-auto ${
         scrolling ? "hidden" : ""
       }`}
       style={{ width: "100%", left: 0, right: 0 }}
     >
       <nav
-        className={`h-[80px] md:h-[100px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto ${
+        className={`h-[80px] md:h-[70px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto ${
           scrolling ? "hidden" : ""
         }`}
         style={{ width: "100%", left: 0, right: 0 }}
       >
         <Link href="/">
           <Image
-            src="/img/rainder.png"
-            width={60}
-            height={30}
-            className="h-20 md:ml-4 lg:ml-10"
+            src="/img/new-logo-rmb.png"
+            width={150}
+            height={150}
+            className=" h-14 w-14 md:ml-4 lg:ml-10"
             alt="icon"
           />
         </Link>

@@ -9,7 +9,7 @@ const NavBarModal = ({ displayOption }) => {
         top: "50px",
         right: "-150px",
         gap: "20px",
-        backgroundColor: "#0f172a",
+        backgroundColor: "rgb(20, 20, 20)",
         width: "300px",
         padding: "20px",
         border: "1px solid #ff9b2f",
