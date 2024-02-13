@@ -94,7 +94,7 @@ const NavBarComponet = () => {
             Contact
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1nZyMBSMRqlAQK6scr9ftqEq9ZTKDnqfT/view?usp=sharing"
+            href="https://docs.google.com/document/d/1fxqUvIFCQfU-u28RBJ2MPSykJOcatSnT/edit?usp=sharing&ouid=101144408028302736209&rtpof=true&sd=true"
             target="_blank"
           >
             <div className="text-[#ff9b2f] py-1 px-3 border border-[#ff9b2f] rounded-lg ">

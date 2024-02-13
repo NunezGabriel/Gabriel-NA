@@ -49,10 +49,11 @@ const Proyects = () => {
           );
         })}
       </div>
-      {/*Cuando tengas mas proyectos activa este boton */}
-      {/* <button className="w-[200px] h-[50px] border border-[#ff9b2f] rounded-xl changer mx-auto">
-        Show more
-      </button> */}
+      <Link href={"/proyects"} className="mx-auto">
+        <button className="w-[200px] h-[50px] border border-[#ff9b2f] rounded-xl changer ">
+          Show more
+        </button>
+      </Link>
     </div>
   );
 };

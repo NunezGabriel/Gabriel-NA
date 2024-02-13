@@ -1,7 +1,4 @@
-"use client";
-
 import { skills } from "@/data";
-let component;
 const Skills = () => {
   return (
     <div
