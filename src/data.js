@@ -1,3 +1,17 @@
+import { FaReact, FaGitAlt, FaGithub, FaNodeJs } from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiPostgresql,
+  SiJest,
+  SiPython,
+  SiTypescript,
+} from "react-icons/si";
+import { RiJavascriptFill } from "react-icons/ri";
+import { DiRuby } from "react-icons/di";
+
 export const proyects = [
   {
     name: "Get That Home",
@@ -44,5 +58,149 @@ export const proyects = [
       "A backend application that generates trivia questions consumed from an API",
     tecnologies: ["Ruby", "Shell"],
     component: <p>hola</p>,
+  },
+];
+
+export const skills = [
+  {
+    icon: (
+      <FaReact
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiNextdotjs
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <RiJavascriptFill
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiTailwindcss
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiHtml5
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiCss3
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <FaGitAlt
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <FaGithub
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiPostgresql
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiJest
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+
+  {
+    icon: (
+      <DiRuby
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <SiPython
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: true,
+  },
+  {
+    icon: (
+      <FaNodeJs
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: false,
+  },
+  {
+    icon: (
+      <SiTypescript
+        color="#8992af"
+        fontSize={70}
+        className="absolute top-[50%] bottom-[50%] right-[50%] left-[50%] transCenter"
+      />
+    ),
+    full: false,
   },
 ];
