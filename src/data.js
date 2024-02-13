@@ -57,7 +57,6 @@ export const proyects = [
     description:
       "A backend application that generates trivia questions consumed from an API",
     tecnologies: ["Ruby", "Shell"],
-    component: <p>hola</p>,
   },
 ];
 

@@ -4,8 +4,10 @@ import { useState, useEffect } from "react";
 import NavBarModal from "@/modals/navbarModal";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const NavBarComponet = () => {
+  const pathname = usePathname();
   const [scrolling, setScrolling] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
@@ -47,62 +49,92 @@ const NavBarComponet = () => {
       }`}
       style={{ width: "100%", left: 0, right: 0 }}
     >
-      <nav
-        className={`h-[80px] md:h-[70px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto ${
-          scrolling ? "hidden" : ""
-        }`}
-        style={{ width: "100%", left: 0, right: 0 }}
-      >
-        <Link href="/">
-          <Image
-            src="/img/new-logo-rmb.png"
-            width={150}
-            height={150}
-            className=" h-14 w-14 md:ml-4 lg:ml-10"
-            alt="icon"
+      {pathname == "/" ? (
+        <nav
+          className={`h-[80px] md:h-[70px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto ${
+            scrolling ? "hidden" : ""
+          }`}
+          style={{ width: "100%", left: 0, right: 0 }}
+        >
+          <Link href="/">
+            <Image
+              src="/img/new-logo-rmb.png"
+              width={150}
+              height={150}
+              className=" h-14 w-14 md:ml-4 lg:ml-10"
+              alt="icon"
+            />
+          </Link>
+          <div className="relative">
+            <NavBarModal displayOption={modal} />
+          </div>
+          <MdOutlineSegment
+            fontSize={50}
+            color="#ff9b2f"
+            className="md:hidden"
+            onClick={() => {
+              setTrigger(!trigger);
+            }}
           />
-        </Link>
-        <div className="relative">
-          <NavBarModal displayOption={modal} />
-        </div>
-        <MdOutlineSegment
-          fontSize={50}
-          color="#ff9b2f"
-          className="md:hidden"
-          onClick={() => {
-            setTrigger(!trigger);
-          }}
-        />
-        <div className="hidden md:flex gap-12 text-lg items-center">
-          <Link href="#about" className="text-[#cdd6f6] hover:text-[#ff9b2f]">
-            <span className="text-[#ff9b2f]">01 - </span>
-            About
+          <div className="hidden md:flex gap-12 text-lg items-center">
+            <Link href="#about" className="text-[#cdd6f6] hover:text-[#ff9b2f]">
+              <span className="text-[#ff9b2f]">01 - </span>
+              About
+            </Link>
+            <Link
+              href="#skills"
+              className="text-[#cdd6f6] hover:text-[#ff9b2f]"
+            >
+              <span className="text-[#ff9b2f]">02 - </span>
+              Skills
+            </Link>
+            <Link
+              href="#projects"
+              className="text-[#cdd6f6] hover:text-[#ff9b2f]"
+            >
+              <span className="text-[#ff9b2f]">03 - </span>
+              Projects
+            </Link>
+            <Link
+              href="#contact"
+              className="text-[#cdd6f6] hover:text-[#ff9b2f]"
+            >
+              <span className="text-[#ff9b2f]">04 - </span>
+              Contact
+            </Link>
+            <Link
+              href="https://docs.google.com/document/d/1fxqUvIFCQfU-u28RBJ2MPSykJOcatSnT/edit?usp=sharing&ouid=101144408028302736209&rtpof=true&sd=true"
+              target="_blank"
+            >
+              <div className="text-[#ff9b2f] py-1 px-3 border border-[#ff9b2f] rounded-lg ">
+                RESUME
+              </div>
+            </Link>
+          </div>
+        </nav>
+      ) : (
+        <nav
+          className={`h-[80px] md:h-[70px] fixed z-20 top-0 mb-8 lg:mb-16 flex justify-between items-center p-4 md:p-7 max-w-[1440px] mx-auto ${
+            scrolling ? "hidden" : ""
+          }`}
+          style={{ width: "100%", left: 0, right: 0 }}
+        >
+          <Link href="/">
+            <Image
+              src="/img/new-logo-rmb.png"
+              width={150}
+              height={150}
+              className=" h-14 w-14 md:ml-4 lg:ml-10"
+              alt="icon"
+            />
           </Link>
-          <Link href="#skills" className="text-[#cdd6f6] hover:text-[#ff9b2f]">
-            <span className="text-[#ff9b2f]">02 - </span>
-            Skills
-          </Link>
-          <Link
-            href="#projects"
-            className="text-[#cdd6f6] hover:text-[#ff9b2f]"
-          >
-            <span className="text-[#ff9b2f]">03 - </span>
-            Projects
-          </Link>
-          <Link href="#contact" className="text-[#cdd6f6] hover:text-[#ff9b2f]">
-            <span className="text-[#ff9b2f]">04 - </span>
-            Contact
-          </Link>
-          <Link
-            href="https://docs.google.com/document/d/1fxqUvIFCQfU-u28RBJ2MPSykJOcatSnT/edit?usp=sharing&ouid=101144408028302736209&rtpof=true&sd=true"
-            target="_blank"
-          >
+          <Link href="/">
             <div className="text-[#ff9b2f] py-1 px-3 border border-[#ff9b2f] rounded-lg ">
-              RESUME
+              Go Back
             </div>
           </Link>
-        </div>
-      </nav>
+        </nav>
+      )}
     </div>
   );
 };
