@@ -10,7 +10,7 @@ import Contact from "@/components/contact";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <section className="mt-[100px] grid py-3 px-6 gap-4 md:flex md:max-w-[1320px] md:justify-between  md:max-h-[684px] justify-center mx-auto lg:mt-[223px] mb-24 lg:mb-[300px] ">
         <div className="grid max-w-[900px] gap-4 lg:gap-14 md:flex md:flex-col relative">
           <p className=" text-[#ff9b2f] blur-in text-lg lg:text-[30px]">
@@ -79,6 +79,6 @@ export default function Home() {
           Application developed with passion ❤ by me, Gabriel N.A.
         </p>
       </div>
-    </>
+    </div>
   );
 }

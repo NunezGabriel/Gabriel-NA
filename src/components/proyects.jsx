@@ -43,8 +43,8 @@ const Proyects = () => {
                 </h1>
                 <p className="text-[#8992af] ">{proyect.description}</p>
                 <div className="flex gap-4 text-[#515667] text-sm">
-                  {proyect.tecnologies.map((tecnology) => {
-                    return <p>{tecnology}</p>;
+                  {proyect.tecnologies.map((tecnology, index) => {
+                    return <p key={index}>{tecnology}</p>;
                   })}
                 </div>
               </div>
