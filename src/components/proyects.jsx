@@ -15,9 +15,12 @@ const Proyects = () => {
       </h1>
 
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
-        {proyects.map((proyect) => {
+        {proyects.map((proyect, index) => {
           return (
-            <div className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150">
+            <div
+              key={index}
+              className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150"
+            >
               <div className="flex w-full justify-between items-center ">
                 <CiFolderOn fontSize={50} color="#ff9b2f" />
                 <div className="flex gap-4 items-center">

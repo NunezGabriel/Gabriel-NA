@@ -9,9 +9,12 @@ const Skills = () => {
         <span className="text-[#ff9b2f]">02 - </span>Skills
       </h1>
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
-        {skills.map((skill) => {
+        {skills.map((skill, index) => {
           return (
-            <div className="h-32 w-32 relative  bg-[#242424] rounded-2xl">
+            <div
+              key={index}
+              className="h-32 w-32 relative  bg-[#242424] rounded-2xl"
+            >
               <span className="relative left-[95px] top-3 flex h-4 w-4">
                 <span
                   className={`animate-ping absolute inline-flex h-full w-full rounded-full  ${
