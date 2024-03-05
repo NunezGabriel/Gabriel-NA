@@ -11,7 +11,7 @@ const Proyects = () => {
       className="sections p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
     >
       <h1 className="text-[#cdd6f6] text-2xl ">
-        <span className="text-[#ff9b2f]">03 - </span>Some Things I’ve Built
+        <span className="text-[#00ffc9]">03 - </span>Some Things I’ve Built
       </h1>
 
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
@@ -22,7 +22,7 @@ const Proyects = () => {
               className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150"
             >
               <div className="flex w-full justify-between items-center ">
-                <CiFolderOn fontSize={50} color="#ff9b2f" />
+                <CiFolderOn fontSize={50} color="#00ffc9" />
                 <div className="flex gap-4 items-center">
                   <Link href={proyect.linkGitHub} target="_blank">
                     <FiGithub fontSize={20} className={`changer`} />
@@ -53,7 +53,7 @@ const Proyects = () => {
         })}
       </div>
       <Link href={"/proyects"} className="mx-auto">
-        <button className="w-[200px] h-[50px] border border-[#ff9b2f] rounded-xl changer ">
+        <button className="w-[200px] h-[50px] border border-[#00ffc9] rounded-xl changer ">
           Show more
         </button>
       </Link>

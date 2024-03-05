@@ -15,7 +15,7 @@ const ProyectsPage = () => {
               className="h-[305px] w-[315px] square p-8 lg:hover:-translate-y-2 ease-in duration-150"
             >
               <div className="flex w-full justify-between items-center ">
-                <CiFolderOn fontSize={50} color="#ff9b2f" />
+                <CiFolderOn fontSize={50} color="#00ffc9" />
                 <div className="flex gap-4 items-center">
                   <Link href={proyect.linkGitHub} target="_blank">
                     <FiGithub fontSize={20} className={`changer`} />

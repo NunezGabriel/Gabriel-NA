@@ -6,7 +6,7 @@ const Skills = () => {
       className="sections p-6 grid gap-12 md:mx-auto  md:max-w-[1320px] mb-8 lg:mb-28"
     >
       <h1 className="text-[#cdd6f6] text-2xl ">
-        <span className="text-[#ff9b2f]">02 - </span>Skills
+        <span className="text-hard-color">02 - </span>Skills
       </h1>
       <div className="w-full flex flex-wrap gap-12 p-[10px] md:justify-center">
         {skills.map((skill, index) => {
@@ -18,12 +18,12 @@ const Skills = () => {
               <span className="relative left-[95px] top-3 flex h-4 w-4">
                 <span
                   className={`animate-ping absolute inline-flex h-full w-full rounded-full  ${
-                    skill.full ? "bg-[#ff9b2f]" : "bg-[#8d30ff]"
+                    skill.full ? "bg-[#00ffc9]" : "bg-[#8d30ff]"
                   } opacity-75`}
                 ></span>
                 <span
                   className={`relative inline-flex rounded-full h-4 w-4 ${
-                    skill.full ? "bg-[#ff9b2f]" : "bg-[#8d30ff]"
+                    skill.full ? "bg-[#00ffc9]" : "bg-[#8d30ff]"
                   }`}
                 ></span>
               </span>

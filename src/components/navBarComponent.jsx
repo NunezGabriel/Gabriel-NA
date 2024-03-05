@@ -57,56 +57,55 @@ const NavBarComponet = () => {
           style={{ width: "100%", left: 0, right: 0 }}
         >
           <Link href="/">
-            <Image
-              src="/img/new-logo-rmb.png"
-              width={150}
-              height={150}
-              className=" h-14 w-14 md:ml-4 lg:ml-10"
-              alt="icon"
-            />
+            <h1 className=" text-hard-color text-4xl font-bold md:ml-4 lg:ml-10">
+              {"<"}GNA{"/>"}
+            </h1>
           </Link>
           <div className="relative">
             <NavBarModal displayOption={modal} />
           </div>
           <MdOutlineSegment
             fontSize={50}
-            color="#ff9b2f"
+            color="#00ffc9"
             className="md:hidden"
             onClick={() => {
               setTrigger(!trigger);
             }}
           />
           <div className="hidden md:flex gap-12 text-lg items-center">
-            <Link href="#about" className="text-[#cdd6f6] hover:text-[#ff9b2f]">
-              <span className="text-[#ff9b2f]">01 - </span>
+            <Link
+              href="#about"
+              className="text-[#cdd6f6] hover:text-hard-color"
+            >
+              <span className="text-hard-color">01 - </span>
               About
             </Link>
             <Link
               href="#skills"
-              className="text-[#cdd6f6] hover:text-[#ff9b2f]"
+              className="text-[#cdd6f6] hover:text-hard-color"
             >
-              <span className="text-[#ff9b2f]">02 - </span>
+              <span className="text-[#00ffc9]">02 - </span>
               Skills
             </Link>
             <Link
               href="#projects"
-              className="text-[#cdd6f6] hover:text-[#ff9b2f]"
+              className="text-[#cdd6f6] hover:text-hard-color"
             >
-              <span className="text-[#ff9b2f]">03 - </span>
+              <span className="text-hard-color">03 - </span>
               Projects
             </Link>
             <Link
               href="#contact"
-              className="text-[#cdd6f6] hover:text-[#ff9b2f]"
+              className="text-[#cdd6f6] hover:text-hard-color"
             >
-              <span className="text-[#ff9b2f]">04 - </span>
+              <span className="text-hard-color">04 - </span>
               Contact
             </Link>
             <Link
               href="https://docs.google.com/document/d/1fxqUvIFCQfU-u28RBJ2MPSykJOcatSnT/edit?usp=sharing&ouid=101144408028302736209&rtpof=true&sd=true"
               target="_blank"
             >
-              <div className="text-[#ff9b2f] py-1 px-3 border border-[#ff9b2f] rounded-lg ">
+              <div className="text-hard-color py-1 px-3 border border-[#00ffc9] rounded-lg ">
                 RESUME
               </div>
             </Link>
@@ -120,16 +119,12 @@ const NavBarComponet = () => {
           style={{ width: "100%", left: 0, right: 0 }}
         >
           <Link href="/">
-            <Image
-              src="/img/new-logo-rmb.png"
-              width={150}
-              height={150}
-              className=" h-14 w-14 md:ml-4 lg:ml-10"
-              alt="icon"
-            />
+            <h1 className=" text-hard-color text-4xl font-bold md:ml-4 lg:ml-10">
+              {"<"}GNA{"/>"}
+            </h1>
           </Link>
           <Link href="/">
-            <div className="text-[#ff9b2f] py-1 px-3 border border-[#ff9b2f] rounded-lg ">
+            <div className="text-hard-color py-1 px-3 border border-[#00ffc9] rounded-lg ">
               Go Back
             </div>
           </Link>

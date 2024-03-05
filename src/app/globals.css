@@ -115,7 +115,7 @@ a.smooth-scroll {
   transition: 1s;
 }
 .changer:hover {
-  color: #ff9b2f;
+  color: #00ffc9;
 }
 
 .square {
@@ -126,7 +126,7 @@ a.smooth-scroll {
   transition: 0.5s;
 }
 .square:hover .maintext {
-  color: #ff9b2f;
+  color: #00ffc9;
 }
 
 @keyframes show {
@@ -149,4 +149,8 @@ a.smooth-scroll {
   animation-name: show;
   animation-range: entry 25% cover 50%;
   animation-fill-mode: both;
+}
+
+.text-hard-color {
+  color: #00ffc9;
 }
